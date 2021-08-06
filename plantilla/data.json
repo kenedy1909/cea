@@ -1,0 +1,30 @@
+{
+    "ova":"ÁREAS TRANSVERSALES",
+    "nombre_ova":"FACTORES HUMANOS EN LA AVIACIÓN",
+    "contenido_tematico":[
+        {
+            "unidad":"Conceptos básicos de gestión y relación con los Factores Humanos (FFHH) en Aviación.",
+            "tema":"Generalidades y Estadísticas",
+            "subtemas":[
+                {
+                    "nombre":"Impacto de la gestión de riesgo"
+                },
+                {
+                    "nombre":"Metodología de la gestión de riesgo en FFHH: El modelo de SHELL"
+                }
+            ]
+        },
+        {
+            "unidad":"Utilidad de la gestión de riesgo en FFHH dentro de una organización.",
+            "tema":"Elementos de gestión organizacional.",
+            "subtemas":[
+                {
+                    "nombre":"Cultura Organizacional"
+                },
+                {
+                    "nombre":"Gestión del riesgo de los factores aeromedicos."
+                }
+            ]
+        }
+    ]
+}
