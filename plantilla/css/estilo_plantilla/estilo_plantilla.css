@@ -8,6 +8,46 @@ body{
 	font-family: 'Helvetica Neue','Helvetica', 'Arial', sans-serif;
 	font-size: 15px;
 }
+
+.text-despedida{
+  color: var(--bg-color-dark);
+  font-size: 18px;
+  font-weight: 600;
+}
+#smartwizard .nav{
+    display: none;
+}
+.sw-theme-arrows{
+    border: none;
+}
+
+.sw>.tab-content{
+    height: calc(100vh - 150px) !important;
+}
+
+.animatedModal{
+    padding: 30px 60px;
+    width: 50% !important;
+    right: 0 !important;
+    left: initial !important;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.animatedModal-off{
+  padding: 30px 60px;
+  width: 50% !important;
+  right: 0 !important;
+  left: initial !important;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.contenido-modal-animated{
+    color: #fff;
+}
+.close-animatedModal{
+    color:#fff ;
+}
 .logomenu{
   background: #1e9491;
   width: 120px;
