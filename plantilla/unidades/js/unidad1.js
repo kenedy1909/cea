@@ -96,9 +96,30 @@ $( document ).ready(function() {
             $(".thumb").hide();
         }
     });
+    $("#demo04").animatedModal({
+        animatedIn:'bounceIn',
+        animatedOut:'bounceOutLeft',
+        color:'#39BEB9',
+        beforeOpen: function() {
+            var children = $(".thumb");
+            var index = 0;
+            function addClassNextChild() {
+                if (index == children.length) return;
+                children.eq(index++).show().velocity("transition.slideInLeft", { opacity:1, stagger: 450,  defaultDuration: 100 });
+                window.setTimeout(addClassNextChild, 100);
+            }
 
-    $("#smartwizard").on("stepContent", function(e, anchorObject, stepIndex, stepDirection) {
+            addClassNextChild();
+        },
+        afterClose: function() {
+            $(".thumb").hide();
+        }
+    });
+
+    $("#smartwizard").on("showStep", function(e, anchorObject, stepIndex, stepDirection) {
+        
         EditarLocation(stepIndex);
+        moveBarPorcentaje(stepIndex);
         console.log("Here is the content for step " + stepIndex);
         switch(stepIndex) {
             default:
@@ -106,6 +127,17 @@ $( document ).ready(function() {
         }
     });
 });
+function moveBarPorcentaje(stepIndex) {
+    var pagestotal = ($("#smartwizard li").length)-1;
+    console.log(pagestotal);
+    var regla = (stepIndex/pagestotal)*100;
+    console.log(regla);
+    var elem = document.getElementById("myBar");
+    $("#percentext").text(parseInt(regla) + "%");
+    $(elem).animate({
+        width: regla + "%"
+    }, 800 );
+}
 
 window.onunload = function (){
     endScorm();
