@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    
     $('.preload').first().delay(100).animate({'opacity':'1'},600);
     var url = new URL(window.location.href);
     var c = url.searchParams.get("unidad");

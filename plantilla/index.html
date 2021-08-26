@@ -1,4 +1,5 @@
-<html lang="es"><head>
+<html>
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -66,16 +67,16 @@
     <main class="container">
         <div class="bg-backg rounded">
             <div class="div_ova_bienvenida">
-                <h5>¡Bienvenidos al Objeto Virtual de Aprendizaje!</h5>
+                <h5 key="bienvenida" class="langs">¡Bienvenidos al Objeto Virtual de Aprendizaje!</h5>
             </div>
             <div class="titulo_ova mt-2">
                 <img src="assets/img/img_plantilla/imagen111.png" alt="">
             </div>
             <div class="desc_ova mt-3">
-                <p>El propósito del <b>  OVA FACTORES HUMANOS EN LA AVIACIÓN </b> es dar a conocer a todo el personal que labora en el medio aeronáutico las herramientas más relevantes que el área de factores humanos brinda para la correcta gestión del riesgo y la garantía de la seguridad operacional.</p>
+                <p class="langs" key="desc_ova">El propósito del <b>  OVA FACTORES HUMANOS EN LA AVIACIÓN </b> es dar a conocer a todo el personal que labora en el medio aeronáutico las herramientas más relevantes que el área de factores humanos brinda para la correcta gestión del riesgo y la garantía de la seguridad operacional.</p>
             </div>
             <div class="footer-desc">
-                <p>Para conocer más información de este curso, haga clic en el menú de navegación lateral derecho. <br><br>
+                <p class="langs" key="footer-desc">Para conocer más información de este curso, haga clic en el menú de navegación lateral derecho. <br><br>
                         Luego haga clic en INICIAR para empezar este recorrido.
                 </p>
             </div>
@@ -234,10 +235,11 @@
             </div>
         </div>
     </div>
+    <script src="assets/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/bootstrap/popper.min.js"></script>
     <script src="unidades/js/SCORM_API_wrapper.js"></script>
     <script src="unidades/js/controlador_scorm.js"></script>
-    <script src="assets/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/jquery/jquery.MultiLanguage.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="index.js" crossorigin="anonymous"></script>
 </body>

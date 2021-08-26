@@ -1,0 +1,29 @@
+{
+  "head": {
+    "title": "Multiple Language"
+  },
+  "body": {
+    "multi-language": "Multi Language Jquery Plugin",
+    "how-to-use": "How to use:",
+    "demo": "Demo:"
+  },
+  "ul": {
+    "home": "Home",
+    "contact": "Contact Us",
+    "about": "About Us"
+  },
+  ".div_ova_bienvenida": {
+    "msg#1": "Class A Some message #1",
+    "msg#2": "Class A Some message #2",
+    "bienvenida": "Welcome to the Virtual Learning Object!"
+  },
+  ".langs": {
+    "desc_ova": "The purpose of the OVA HUMAN FACTORS IN AVIATION is to make known to all personnel working in the aeronautical environment the most relevant tools that the human factors area provides for the correct management of risk and the guarantee of operational safety.",
+    "footer-desc": "To learn more about this course, click on the right side navigation menu. <br> <br> Then click START to begin this tour.",
+    "bienvenida": "Welcome to the Virtual Learning Object!"
+  },
+  "code": {
+    "how-default": " // choose language by localStorage or default in jQuery config",
+    "how-change": " // change language immediately"
+  }
+}
